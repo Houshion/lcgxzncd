@@ -1,0 +1,108 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img,textarea, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+}
+
+html{
+  font-size: calc(100vw/7.5);
+}
+body{
+  font-size: 0.28rem;
+  background-color: #f1f1f1;
+}
+ul,ol{
+  list-style:none;
+}
+select, input {
+  vertical-align:middle;
+}
+/*防止拖动*/
+textarea { resize:none; }
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+table { border-collapse:collapse; }
+/*去掉input等聚焦时的蓝色边框*/
+img,input,fieldset,button{
+  border:none;
+  padding:0;margin:0;
+  outline-style:none;
+}
+img{width: 100%;height: 100%;display:block;}
+h1,h2,h3,h4,h5,h6{
+  font-weight:normal;
+  font-size:1em;
+}
+div,header,nav,main,article,section,aside,footer,figure,figcaption,details,summary{
+  display:block;
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  height:0;
+  overflow:hidden;
+  visibility:hidden;
+  clear:both;
+  zoom:1;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+*{
+  box-sizing:border-box;
+}
+s,i,em{
+  font-style:normal;
+  text-decoration:none;
+}
+.bColor{
+  background:#06cbc4;
+}
+.cColor{
+  color:#06cbc4;
+}
+.colf{
+  color:#fff;
+}
+.col9{
+  color:#999;
+}
+.fw{
+  font-weight: bold;
+}
+.bord1{
+  border:1px solid #06cbc4;
+}
+.bgf{
+  background: #fff;
+}
+.h100{
+  height:100%;
+}
+
+.dis-com{
+  display: flex;
+  flex-direction: column;
+}
+.f1{
+  flex:1;
+}
+.f2{
+  flex:2;
+}
+.mr{
+  margin-right:0.2rem;
+}
+.tr{
+  text-align: right;
+}
+.tc{
+  text-align: center;
+}
+.coff9900{
+  color:#ff9900;
+}
